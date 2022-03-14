@@ -1,0 +1,29 @@
+.switch {
+  position: relative;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background: #000;
+  display: flex;
+  align-items: center;
+
+  &__ball {
+    position: absolute;
+    top: 7.5%;
+    height: 85%;
+    aspect-ratio: 1;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform-origin: left;
+    left: 0;
+  }
+
+  & > input {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+  }
+}

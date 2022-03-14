@@ -1,0 +1,41 @@
+<div class="flex flex-wrap flex-j-space-betweeen">
+  <h2 class="headline-5 flex-nowrap">Ability Scores:</h2>
+
+  <div class="options">
+    <div id="switch" class="switch">
+      <input class="options__mode" type="checkbox" />
+      <p class="switch__text">3 Dice</p>
+      <div class="switch__ball"></div>
+    </div>
+  </div>
+</div>
+
+<div id="graphs" class="graphs grid-stretch-item grid-center">
+  <div id="graph-top" class="graph graph--top">
+    <div class="graph__column">
+      <div class="graph__bar"><p class="graph__value"></p></div>
+    </div>
+    <div class="graph__column">
+      <div class="graph__bar"><p class="graph__value"></p></div>
+    </div>
+    <div class="graph__column">
+      <div class="graph__bar"><p class="graph__value"></p></div>
+    </div>
+  </div>
+  <div id="graph-bottom" class="graph graph--bottom">
+    <div id="base-fraction" class="graph__base-fraction">25</div>
+    <div class="graph__column">
+      <div class="graph__remainder"><p class="graph__value"></p></div>
+      <div class="graph__bar"><p class="graph__value"></p></div>
+    </div>
+    <div class="graph__column">
+      <div class="graph__remainder"><p class="graph__value"></p></div>
+      <div class="graph__bar"><p class="graph__value"></p></div>
+    </div>
+    <div class="graph__column">
+      <div class="graph__remainder"><p class="graph__value"></p></div>
+      <div class="graph__bar"><p class="graph__value"></p></div>
+    </div>
+  </div>
+</div>
+<button id="ability-button" class="button">Roll</button>

@@ -1,0 +1,14 @@
+header {
+  height: 7rem;
+  background: var(--clr-dark-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-serif);
+
+  grid-column: 1 / -1;
+
+  @media (max-width: 37.5rem) {
+    height: 4rem;
+  }
+}

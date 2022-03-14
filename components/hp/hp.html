@@ -1,0 +1,33 @@
+<div class="flex flex-wrap flex-j-space-betweeen">
+  <h2 class="headline-5">HP:</h2>
+
+  <div class="options">
+    <div class="select-number">
+      <p>Level =</p>
+      <input id="select-number" type="number" value="1" />
+    </div>
+    <div class="radio">
+      <p class="flex-nowrap">Hit die =</p>
+      <div id="radio" class="radio__option">
+        <input type="radio" name="die" value="6" checked />
+        <p>6</p>
+      </div>
+      <div class="radio__option">
+        <input type="radio" name="die" value="8" />
+        <p>8</p>
+      </div>
+      <div class="radio__option">
+        <input type="radio" name="die" value="12" />
+        <p>12</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hp__bar">
+  <div id="hp" class="hp__health">
+    <p>6</p>
+  </div>
+</div>
+
+<button id="button" class="button">Roll</button>

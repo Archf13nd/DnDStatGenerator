@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-justify-end {
+  justify-items: end;
+}
+
+.grid-align-self-start {
+  align-self: start;
+}
+
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.flex-center {
+  align-items: center;
+  justify-items: center;
+}
+
+.flex-nowrap {
+  flex: 0 0 content;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-j-space-betweeen {
+  justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.options {
+  // width: 100%;
+  flex: 0 1 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  // justify-content: flex-end;
+  gap: 2rem;
+  & p {
+    width: 100%;
+
+    text-align: center;
+  }
+}
